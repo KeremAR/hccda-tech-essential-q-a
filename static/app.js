@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 quizContainer.classList.remove('hidden');
                 displayQuestion();
             } else {
-                loadingElement.textContent = 'Sorular yüklenemedi.';
+                loadingElement.textContent = 'Could not load questions.';
             }
         } catch (error) {
             console.error('Fetch error:', error);
-            loadingElement.textContent = 'Sorular yüklenirken bir hata oluştu.';
+            loadingElement.textContent = 'An error occurred while loading questions.';
         }
     }
 
@@ -44,11 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedOptions = [];
         resultContainer.style.display = 'none';
         resultContainer.className = 'result-container';
-        nextButton.textContent = 'Cevabı Kontrol Et';
+        nextButton.textContent = 'Check Answer';
         nextButton.disabled = true;
 
         const question = questions[currentQuestionIndex];
-        questionNumberElement.textContent = `Soru ${currentQuestionIndex + 1} / ${questions.length}`;
+        questionNumberElement.textContent = `Question ${currentQuestionIndex + 1} / ${questions.length}`;
         questionTextElement.textContent = question.question;
 
         optionsContainer.innerHTML = '';
@@ -129,10 +129,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         if (allCorrect) {
-            resultTextElement.textContent = 'Doğru!';
+            resultTextElement.textContent = 'Correct!';
             resultContainer.classList.add('correct');
         } else {
-            resultTextElement.textContent = `Yanlış! Doğru Cevap: ${correctAnswers.join(', ')}`;
+            resultTextElement.textContent = `Incorrect! The correct answer is: ${correctAnswers.join(', ')}`;
             resultContainer.classList.add('incorrect');
         }
 
@@ -140,17 +140,17 @@ document.addEventListener('DOMContentLoaded', () => {
         resultContainer.style.display = 'block';
 
         if (currentQuestionIndex < questions.length - 1) {
-            nextButton.textContent = 'Sonraki Soru';
+            nextButton.textContent = 'Next Question';
         } else {
-            nextButton.textContent = 'Testi Bitir';
+            nextButton.textContent = 'Finish Quiz';
         }
     }
     
     function showFinalScreen() {
         quizContainer.innerHTML = `
-            <h2>Testi tamamladınız!</h2>
-            <p>Toplam ${questions.length} soruyu cevapladınız.</p>
-            <button onclick="location.reload()">Yeniden Başla</button>
+            <h2>You have completed the quiz!</h2>
+            <p>You answered a total of ${questions.length} questions.</p>
+            <button onclick="location.reload()">Restart</button>
         `;
         const restartButton = quizContainer.querySelector('button');
         restartButton.style.backgroundColor = '#1a73e8';
