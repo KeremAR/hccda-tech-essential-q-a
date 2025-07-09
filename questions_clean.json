@@ -1,0 +1,1537 @@
+[
+  {
+    "question": "In Huawei Cloud, an availability zone (AZ) shares the same power source with other zones in the region.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "availability zones (AZs) have independent power sources."
+  },
+  {
+    "question": "In cloud computing, “FunctionGraph” is a service that supports serverless architecture.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "The Cross-AZ Active-Active” architecture is used only for data backup.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This architecture is used to provide high availability and uninterrupted service."
+  },
+  {
+    "question": "An ECS server can exist in different regions at the same time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "ECS servers are located in one region, but their backups can be in different regions."
+  },
+  {
+    "question": "Bare Metal Server (BMS) is a completely virtual server and does not have access to physical resources.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "BMS is a completely physical server and has access to all resources."
+  },
+  {
+    "question": "Auto Scaling can only be started manually, automatic scaling cannot be done.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Auto Scaling can automatically scale resources."
+  },
+  {
+    "question": "In Huawei Cloud, “Security Group” settings are used only for data backup.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Security Group settings are used for security and access control."
+  },
+  {
+    "question": "The number of availability zones (AZs) in a region can vary from 1 to 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "In cloud computing The “Disaster Recovery (DR)” strategy can only be implemented in local data centers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "DR strategies are typically implemented in geographically dispersed data centers."
+  },
+  {
+    "question": "There is no cost difference between Elastic Cloud Server (ECS) and Bare Metal Server (BMS).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "BMS is generally more expensive than ECS because it offers physical resources."
+  },
+  {
+    "question": "EVS disks can be used alone without being connected to servers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "EVS disks cannot be used without being connected to servers."
+  },
+  {
+    "question": "EVS disks can be increased in capacity, but not decreased in capacity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "OBS is optimized for downloading and sharing data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "SFS provides simultaneous file access to multiple users.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "EVS disks offer data protection features such as encryption and snapshot creation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "OBS is generally suitable for small data storage needs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "OBS is optimized for storing large amounts of data."
+  },
+  {
+    "question": "SFS can only be used by a single server.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "SFS can be used by multiple servers as a shared file system."
+  },
+  {
+    "question": "EVS disks can be monitored in real time with Cloud Eye.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "OBS service can only be accessed through APIs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "OBS can be accessed by many tools, such as APIs, Browser+, console."
+  },
+  {
+    "question": "SFS provides a suitable storage solution for distributed applications.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Non-relational databases are fully compliant with ACID specifications.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Non-relational databases are generally not fully compliant with ACID specifications. Instead, they are characterized by being able to store large amounts of data and process a largenumber of concurrent requests."
+  },
+  {
+    "question": "RDS MySQL provides a single read/write partition address for applications and does not require application reconfiguration.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "O&M (Operation & Maintenance) services in Huawei Cloud only provide management of cloud servers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "O&M services include the management of networks, databases, and applications, as well as cloud servers."
+  },
+  {
+    "question": "GaussDB supports inter-AZ distribution with zero data loss, thus providing high data security.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "In RDS MySQL, read replicas can only be created for the primary database.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Consistency is not guaranteed in non-relational databases.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "LTS (Log Tank Service) only provides log management in small-scale systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "LTS centrally collects, processes, and analyzes large volumes of logs. It can be used insmall and large-scale systems."
+  },
+  {
+    "question": "Cross-AZ HA ensures uninterrupted database operation in the event of a data center failure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Huawei’s MySQL kernel (HWSQL) provides increased performance in low-concurrency scenarios.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "HWSQL provides 3X higher performance, especially in high-concurrency scenarios."
+  },
+  {
+    "question": "RDS PostgreSQL is a suitable database for geospatial application systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "GaussDB supports only SQL-based applications.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "GaussDB supports large-scale data storage and analytics requirements, as well as SQL-based applications."
+  },
+  {
+    "question": "Cloud Eye uses metrics to monitor the status of a resource at a specific point in time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "In Huawei Cloud, CTS manually records operations on cloud resources.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "CTS automatically records operations on cloud resources, which can then be used for security analysis, compliance audits, and troubleshooting."
+  },
+  {
+    "question": "The Cross-AZ Active-Active architecture is used only for data backup.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This architecture is used to provide high availability and uninterrupted service, not just for backup purposes."
+  },
+  {
+    "question": "Bare Metal Server (BMS) provides full physical hardware control.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Auto Scaling can only be triggered manually.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Auto Scaling can also be triggered automatically when resource usage increases."
+  },
+  {
+    "question": "In Huawei Cloud, Elastic Volume Service (EVS) capacity can be increased, but capacity cannot be reduced.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Security Group settings enhance security by filtering network traffic.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "FunctionGraph supports serverless architecture.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Elastic Load Balancer (ELB) only works at Layer 7 (HTTP/HTTPS).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "ELB can work at both Layer 4 (TCP/UDP) and Layer 7 (HTTP/HTTPS)."
+  },
+  {
+    "question": "Network ACLs control network traffic within subnets.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "VPC peering connection (VPC Peering) can be established between two VPCs in different regions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "VPC Peering can be established between two VPCs in the same region.​"
+  },
+  {
+    "question": "In Huawei Cloud, CTS (Cloud Trace Service) manually records operations on cloud resources.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "CTS automatically records operations on cloud resources."
+  },
+  {
+    "question": "In Huawei Cloud, Security Group is only used for data backup.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Security Group is not used for data backup, but for security and access control."
+  },
+  {
+    "question": "SFS (Scalable File Service) is suitable for large data processing and distributed applications.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "EVS disks can be used alone without connecting to ECS or BMS servers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "EVS disks cannot be accessed without connecting to ECS or BMS servers."
+  },
+  {
+    "question": "OBS is optimized for data downloading and sharing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "VPN creates an Internet-based encrypted communication tunnel between a VPC and an on-premises data center.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "The performance of virtual servers can be monitored with Cloud Eye in Huawei Cloud.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "GaussDB supports high data security by ensuring zero data loss between intra-city AZs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "It supports Dedicated Host (DeH) virtualization in Huawei Cloud.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Network ACLs are used to protect subnets within a VPC.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "FunctionGraph in Huawei Cloud is suitable for operations that require physical hardware.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "FunctionGraph is suitable for serverless operations, not requiring physical hardware."
+  },
+  {
+    "question": "Elastic Cloud Server (ECS) enables flexible configurations on virtual servers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Object Storage Service (OBS) in Huawei Cloud is suitable for large-scale data storage and backup operations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Dedicated Host (DeH) should only be preferred when low-cost server solutions are required.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "DeH is preferred when full control over physical hardware is required rather than low-cost solutions."
+  },
+  {
+    "question": "Elastic Load Balancer (ELB) only works at Layer 4 when performing load balancing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "ELB supports both Layer 4 (TCP/UDP) and Layer 7 (HTTP/HTTPS) layers."
+  },
+  {
+    "question": "Cloud Eye helps in performance monitoring by monitoring resource dimensions such as ECS CPU usage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "LTS (Log Tank Service) is used for centralized management of system logs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Virtual Private Network (VPN) provides an encrypted communication tunnel between the on-premises data center and the VPC.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "An RDS for MySQL primary/standby DB instance can be deployed only in one region.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "A customer needs to migrate some applications to the cloud and use Direct Connect or Virtual Private Network (VPN) for communication between cloud and on-premises applications. The customer needs to use different CIDR blocks for the Virtual Private Cloud (VPC) and on-premises data center to avoid address conflicts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "If an availability zone (AZ) is paralyzed by a fault, the other AZ in the same region will not be affected. The fault probability remains unchanged.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "You can purchase yearly/monthly ECSs to save money. If this billing mode is not suitable for your business requirements, the total costs may be even higher.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "In addition to saving costs and maintaining the desired performance, elastic design improves reliability.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "You can deploy both containerized applications and server-based applications using Application Orchestration Service (AOS).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Both Object Storage Service (OBS) and Elastic Volume Service (EVS) are storage services. When using OBS, you pay only for what you use, but when using EVS, you need to pay for all the disk space allocated to you.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "If there are not enough servers, you can increase server quotas or upgrade the specifications of existing servers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": null
+  },
+  {
+    "question": "Which of the following information can be used by Identity and Access Management (IAM) to identify a visitor ?",
+    "options": [
+      "A. The password of the root user in Linux",
+      "B. The password of the administrator in Windows",
+      "C. The account name, IAM user name, and password for logging in to the Huawei Cloud console",
+      "D. The AK/SK for accessing Huawei Cloud APIs"
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following benefits can a distributed system provide ?",
+    "options": [
+      "A. A huge resource pool using cloud computing",
+      "B. Balanced request pressure for stable performance",
+      "C. Better fault recovery when an error occurs",
+      "D. A loosely coupled system"
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following image types are available on Huawei Cloud ?",
+    "options": [
+      "A. Public images",
+      "B. User data center images",
+      "C. Private images",
+      "D. Shared images"
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following database engines are supported by Relational Database Service (RDS) ?",
+    "options": [
+      "A. MySQL",
+      "B. MongoDB",
+      "C. Postgre",
+      "D. Oracle"
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following statements about the benefits of cloud computing are false ?",
+    "options": [
+      "A. There is no need to worry about security attacks.",
+      "B. You can provide services in different geographical locations.",
+      "C. Abundant resources are available for users.",
+      "D. You can quickly obtain the resources you need simply by making a phone call."
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "What are the application scenarios of Data Warehouse Service (DWS) and Business Intelligence (BI) solutions ?",
+    "options": [
+      "A. Log analysis: Detect security risks from logs before it causes harms.",
+      "B. E-commerce: Assist decision making and marketing design based on statistical analysis.",
+      "C. Transportation: Analyze and collect statistics on traffic flows, assisting traffic diversion and reducing congestion.",
+      "D. Transaction data flow analysis: Assist business owners in detecting abnormal transactions and locking credit cards to avoid further losses."
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following statements are true about Relational Database Service (RDS) ?",
+    "options": [
+      "A. Automated backups use database binlogs.",
+      "B. Manual backups use database binlogs.",
+      "C. Manual backups can be used to restore data to any point in time, but automated backups cannot.",
+      "D. Backups are stored in Object Storage Service (OBS) to ensure high data reliability."
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following methods can be used by ELB to check the health of a backend server ?",
+    "options": [
+      "A. Ping the backend server.",
+      "B. Establish a TCP connection with the specified port of the backend server.",
+      "C. Send an HTTP request to the specified port of the backend server.",
+      "D. Check the power supply and host status of the backend server."
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following components are related to Huawei Cloud Virtual Private Cloud (VPC) ?",
+    "options": [
+      "A. Subnet",
+      "B. Router",
+      "C. Security group",
+      "D. Switch"
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "Which of the following statements are false about Cloud Trace Service (CTS) ?",
+    "options": [
+      "A. It records access to Huawei Cloud APIs.",
+      "B. It is used for security audit to trace operations.",
+      "C. CTS is not free of charge and must be used with caution.",
+      "D. You can transfer traces to Object Storage Service (OBS) buckets for long-term storage of logs free of charge"
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "explanation": null
+  },
+  {
+    "question": "What use cases is Elastic Volume Service (EVS) best suited for?",
+    "options": [
+      "A) Only for data archiving",
+      "B) Distributed file systems, high-performance computing, and data warehousing applications",
+      "C) Email servers and small-scale databases",
+      "D) Only for backup and archiving"
+    ],
+    "answer": "B",
+    "explanation": "Elastic Volume Service (EVS) is especially suited for large-scale, high-performance scenarios such as high-performance computing, data warehousing applications, and distributed file systems. This service is optimized to support data-intensive workloads.\n\n2.When do EVS disks become accessible?\n\nA) When used on their own\n\nB) When connected to ECS or BMS servers and started\n\nC) When paired with other EVS disks\n\nD) When there is no internet connection\n\n B) When connected to ECS or BMS servers and started\n\nExplanation: EVS disks become accessible when connected to ECS (Elastic Cloud Server) or BMS (Bare Metal Server) servers and started. These disks cannot be used independently without a connection."
+  },
+  {
+    "question": "Which feature is not valid for EVS disks?",
+    "options": [
+      "A) Real-time monitoring",
+      "B) Ability to reduce capacity",
+      "C) Encryption",
+      "D) Snapshot creation"
+    ],
+    "answer": "B",
+    "explanation": "While EVS disks can increase capacity, they cannot reduce capacity. Features such as real-time monitoring, encryption and snapshot creation are valid for EVS disks."
+  },
+  {
+    "question": "Which model provides cost advantage with Object Storage Service (OBS)?",
+    "options": [
+      "A) Fixed monthly fee",
+      "B) Pay-per-use",
+      "C) Annual license fee",
+      "D) Fixed fee based on data amount"
+    ],
+    "answer": "B",
+    "explanation": "OBS (Object Storage Service) provides cost advantage by using the pay-per-use model. In this model, users pay only for the storage capacity and time they use, which helps optimize costs."
+  },
+  {
+    "question": "Which tool is not used to access the OBS service?",
+    "options": [
+      "A) OBS Browser+",
+      "B) OBS console",
+      "C) obsutil",
+      "D) EVS disk management panel"
+    ],
+    "answer": "D",
+    "explanation": "Tools such as OBS Browser+, OBS console and obsutil can be used to access the OBS service. The EVS disk management panel is used to manage EVS disks, not to access OBS."
+  },
+  {
+    "question": "For which type of workloads is Scalable File Service (SFS) ideal?",
+    "options": [
+      "A) Small-scale database management",
+      "B) Big data processing and distributed applications",
+      "C) Only web hosting",
+      "D) Only email servers"
+    ],
+    "answer": "B",
+    "explanation": "SFS (Scalable File Service) is ideal for big data processing and distributed applications. SFS provides a shared file system that can be accessed by multiple servers simultaneously, which is suitable for large-scale and high-performance workloads."
+  },
+  {
+    "question": "Which of the following is a data protection feature provided by EVS disks?",
+    "options": [
+      "A) Encryption",
+      "B) Data compression",
+      "C) Data copying",
+      "D) Data analysis tools"
+    ],
+    "answer": "A",
+    "explanation": "EVS disks provide encryption to ensure the security of data. This feature ensures the protection of stored data. Features such as data compression and data analysis tools are not among the primary functions of EVS."
+  },
+  {
+    "question": "What is the most important feature of OBS?",
+    "options": [
+      "A) Low-cost storage",
+      "B) High availability",
+      "C) Automatic data deletion",
+      "D) Fast processing of small files"
+    ],
+    "answer": "B",
+    "explanation": "OBS (Object Storage Service) aims to provide access to stored data at all times by providing high availability. This is critical to prevent data loss and provide continuous service."
+  },
+  {
+    "question": "Which type of disk can be accessed simultaneously by multiple ECS or BMS servers?",
+    "options": [
+      "A) Scalable File Service (SFS)",
+      "B) Elastic Volume Service (EVS)",
+      "C) Object Storage Service (OBS)",
+      "D) Elastic Cloud Server (ECS)"
+    ],
+    "answer": "B",
+    "explanation": "EVS disks can be accessed simultaneously by multiple ECS (Elastic Cloud Server) or BMS (Bare Metal Server) servers. This provides a great advantage in data sharing and high-performance processing scenarios."
+  },
+  {
+    "question": "SFS is a part of which service?",
+    "options": [
+      "A) Compute Services",
+      "B) Storage Services",
+      "C) Network Services",
+      "D) Security Services"
+    ],
+    "answer": "B",
+    "explanation": "SFS (Scalable File Service) is part of Storage Services in Huawei Cloud. This service provides a scalable and flexible file storage solution.\n\n11.Which of the following statements about Virtual Private Cloud (VPC) is incorrect?\n\nA) VPC is located within a cloud region and subnets can be created.\n\nB) VPC is not connected to the internet by default.\n\nC) The CIDR block of subnets created in VPC can be changed after they are created.\n\nD) Elastic IP (EIP) is used for services in VPC to access the internet.\n\n C\n\nExplanation: CIDR blocks of subnets created in VPC cannot be changed after they are created. Therefore, it is necessary to choose the CIDR block of a subnet carefully."
+  },
+  {
+    "question": "Which of the following is used to control network traffic in a Virtual Private Cloud (VPC)?",
+    "options": [
+      "A) Load Balancer",
+      "B) Route Table",
+      "C) Elastic IP (EIP)",
+      "D) Backend Server Group"
+    ],
+    "answer": "B",
+    "explanation": "A route table is a configuration that determines the direction in which network traffic within a VPC will be directed. Each subnet is associated with a route table."
+  },
+  {
+    "question": "Which of the following is true about VPC peering?",
+    "options": [
+      "A) Peering can be done between multiple subnets within the same VPC.",
+      "B) Peering can be done between VPCs in different regions.",
+      "C) Peering can only be done between two VPCs in the same region.",
+      "D) After the peering is done, the CIDR blocks of the subnets must be changed."
+    ],
+    "answer": "C",
+    "explanation": "VPC peering allows network connectivity between two VPCs in the same region. VPC peering cannot be done between VPCs in different regions."
+  },
+  {
+    "question": "Which of the following components is used by Elastic Load Balancer (ELB) in traffic distribution?",
+    "options": [
+      "A) NAT Gateway",
+      "B) Listener",
+      "C) VPC Peering",
+      "D) VPN Gateway"
+    ],
+    "answer": "B",
+    "explanation": "ELB uses listeners to distribute incoming traffic to back-end servers. The listener monitors a specific port and routes requests coming to that port to the configured back-end servers."
+  },
+  {
+    "question": "At which layers can ELB (Elastic Load Balancer) operate?",
+    "options": [
+      "A) Layer 2 and Layer 3",
+      "B) Layer 3 and Layer 4",
+      "C) Layer 4 and Layer 7",
+      "D) Layer 5 and Layer 6"
+    ],
+    "answer": "C",
+    "explanation": "ELB can operate at both Layer 4 (TCP/UDP) and Layer 7 (HTTP/HTTPS) layers. This means that ELB can support different types of application and network traffic."
+  },
+  {
+    "question": "What is the method used by ELB to check the health of backend servers?",
+    "options": [
+      "A) Health Check",
+      "B) Listener Rule",
+      "C) NAT Translation",
+      "D) VPN Tunnel"
+    ],
+    "answer": "A",
+    "explanation": "ELB performs health checks periodically to check the health of backend servers. This way, traffic is not routed to unhealthy servers, thus increasing application availability."
+  },
+  {
+    "question": "Which of the following statements is true about L2CG (Layer 2 Cloud Gateway)?",
+    "options": [
+      "A) Provides NAT service between VPCs.",
+      "B) Establishes network connectivity between VPCs in different regions.",
+      "C) Creates virtual tunnel between cloud and on-premises networks.",
+      "D) Connects subnets within VPCs."
+    ],
+    "answer": "C",
+    "explanation": "L2CG creates a virtual tunnel between the cloud environment and on-premises networks via Direct Connect or VPN. This provides a secure and efficient connection between networks."
+  },
+  {
+    "question": "What is Network ACL used to protect?",
+    "options": [
+      "A) All resources within a VPC",
+      "B) Specific subnets",
+      "C) VPCs in different regions",
+      "D) Specific IP addresses"
+    ],
+    "answer": "B",
+    "explanation": "Network ACLs control incoming and outgoing network traffic within specific subnets. Unlike security groups, they provide protection at the subnet level."
+  },
+  {
+    "question": "Which of the following statements about Network Address Translation (NAT) Gateway is incorrect?",
+    "options": [
+      "A) NAT Gateway allows EIP sharing for servers in a VPC.",
+      "B) With NAT Gateway, separate IP assignments are required for all services.",
+      "C) NAT Gateway can be public or private.",
+      "D) NAT Gateway is used to provide internet access."
+    ],
+    "answer": "B",
+    "explanation": "NAT Gateway allows multiple servers to share a single EIP (Elastic IP). This eliminates the need for separate IP assignments for all services."
+  },
+  {
+    "question": "In which case is Virtual Private Network (VPN) used?",
+    "options": [
+      "A) To route traffic between subnets within a VPC",
+      "B) To establish connectivity between different cloud regions",
+      "C) To provide encrypted communication between the on-premises data center and the VPC",
+      "D) For resources in the VPC to communicate with each other"
+    ],
+    "answer": "C",
+    "explanation": "VPN creates an encrypted internet-based communication tunnel between the on-premises data center and the VPC. This provides secure remote access."
+  },
+  {
+    "question": "What features should relational databases have?",
+    "options": [
+      "A) Must be ACID-compliant",
+      "B) Data is stored in two-dimensional tables",
+      "C) SQL queries are used",
+      "D) All of the above"
+    ],
+    "answer": "D",
+    "explanation": "Relational databases are ACID-compliant, store data in two-dimensional tables, and are managed using SQL queries."
+  },
+  {
+    "question": "How is consistency ensured in non-relational databases?",
+    "options": [
+      "A) With ACID principles",
+      "B) Storage space limit varies depending on the database engine",
+      "C) Consistency is not guaranteed",
+      "D) Using SQL queries"
+    ],
+    "answer": "C",
+    "explanation": "Non-relational databases are generally not ACID-compliant, and therefore consistency is not guaranteed."
+  },
+  {
+    "question": "Which of the following advantages does the distributed architecture of GaussDB in Huawei Cloud offer?",
+    "options": [
+      "A) Increases database performance",
+      "B) Provides zero data loss between intra-AZs",
+      "C) Reduces the complexity of SQL queries",
+      "D) Keeps the number of database nodes constant"
+    ],
+    "answer": "B",
+    "explanation": "GaussDB's distributed architecture provides zero data loss between intra-AZs, thus improving data security."
+  },
+  {
+    "question": "RDS MySQL's Cross-AZ HA feature provides which of the following?",
+    "options": [
+      "A) High database performance",
+      "B) Automatic backup and restore",
+      "C) Primary/backup migration in seconds",
+      "D) Manage all nodes using a single IP address"
+    ],
+    "answer": "C",
+    "explanation": "Cross-AZ HA feature provides high availability by providing primary/backup migration in seconds."
+  },
+  {
+    "question": "Which of the following scenarios is most beneficial for RDS for MySQL in application scenarios?",
+    "options": [
+      "A) Small-scale websites",
+      "B) Large database storage requirements",
+      "C) Fast-growing startups",
+      "D) High-performance analytical queries"
+    ],
+    "answer": "C",
+    "explanation": "RDS for MySQL is an ideal solution for fast-growing startups due to its low cost and scalability."
+  },
+  {
+    "question": "RDS PostgreSQL's Multilayer Network Security feature optimizes which situation?",
+    "options": [
+      "A) Increases the speed of database queries",
+      "B) Increases database storage",
+      "C) Controls traffic to and from specific IP addresses",
+      "D) Reduces database cost"
+    ],
+    "answer": "C",
+    "explanation": "This feature controls traffic to and from specific IP addresses and ports to keep the database secure."
+  },
+  {
+    "question": "Which situation does Database O&M services optimize on Huawei Cloud?",
+    "options": [
+      "A) Increase the speed of database queries",
+      "B) Reduce database backup costs",
+      "C) Ensure high efficiency and quality in database management",
+      "D) Expand database storage"
+    ],
+    "answer": "C",
+    "explanation": "Database O&M services aim to improve the efficiency and quality of database management."
+  },
+  {
+    "question": "What type of monitoring service does Cloud Eye provide?",
+    "options": [
+      "A) Only storage monitoring",
+      "B) Real-time monitoring and setting alarm rules",
+      "C) Manual database backup",
+      "D) Only CPU usage monitoring"
+    ],
+    "answer": "B",
+    "explanation": "Cloud Eye provides multi-dimensional monitoring services, such as real-time monitoring, setting alarm rules, and quickly responding to resource changes."
+  },
+  {
+    "question": "Which of the following does CTS (Cloud Trace Service) in Huawei Cloud provide?",
+    "options": [
+      "A) Improves database performance",
+      "B) Records operations on cloud resources in your account",
+      "C) Optimizes backup and restore operations",
+      "D) Improves the performance of SQL queries"
+    ],
+    "answer": "B",
+    "explanation": "CTS records all operations on cloud resources, and these records can be used for security analysis, compliance audits, and debugging."
+  },
+  {
+    "question": "In which scenario does Huawei's MySQL kernel (HWSQL) provide the greatest performance improvement?",
+    "options": [
+      "A) High concurrency scenarios",
+      "B) Scenarios requiring low storage space",
+      "C) For read-only queries",
+      "D) Systems serving a single user"
+    ],
+    "answer": "A",
+    "explanation": "HWSQL provides 3 times higher performance in high concurrency scenarios."
+  },
+  {
+    "question": "In which case should non-relational databases be preferred?",
+    "options": [
+      "A) Consistency of data must always be guaranteed",
+      "B) There is a need to store large amounts of data and process concurrent requests",
+      "C) ACID compliance is mandatory",
+      "D) When SQL queries are simple"
+    ],
+    "answer": "B",
+    "explanation": "Non-relational databases are preferred when there is a need to store large amounts of data and process a large number of concurrent requests."
+  },
+  {
+    "question": "Log Tank Service (LTS) is designed to optimize which of the following situations?",
+    "options": [
+      "A) Increase database storage",
+      "B) Reduce database backup time",
+      "C) Collect and process system logs centrally",
+      "D) Speed up SQL queries"
+    ],
+    "answer": "C",
+    "explanation": "LTS collects system logs centrally and processes large volumes of logs efficiently, securely and in real time."
+  },
+  {
+    "question": "What is the advantage of using “replica” in RDS MySQL?",
+    "options": [
+      "A) Reduces database performance",
+      "B) Speeds up database backups",
+      "C) Provides high performance by offloading read traffic",
+      "D) Increases database nodes"
+    ],
+    "answer": "C",
+    "explanation": "Using \"replica\" in RDS MySQL improves database performance by offloading read traffic."
+  },
+  {
+    "question": "In which scenarios is GaussDB's support for petabytes of storage advantageous?",
+    "options": [
+      "A) Small-scale data storage requirements",
+      "B) Large-scale data storage and analysis requirements",
+      "C) For read-only queries",
+      "D) Cases where SQL queries are simple"
+    ],
+    "answer": "B",
+    "explanation": "GaussDB's support for petabytes of storage is ideal for large-scale data storage and analysis requirements."
+  },
+  {
+    "question": "What is a metric monitored by Cloud Eye in Huawei Cloud?",
+    "options": [
+      "A) SQL query execution time",
+      "B) Database backup time",
+      "C) ECS CPU utilization",
+      "D) Number of database connections"
+    ],
+    "answer": "C",
+    "explanation": "Cloud Eye helps monitor performance by monitoring resource dimensions such as ECS CPU utilization."
+  },
+  {
+    "question": "When using the \"Cross-AZ Active-Active\" architecture, in what cases is data loss prevented?",
+    "options": [
+      "A) System failure in only one AZ",
+      "B) When multiple servers are used in the same AZ",
+      "C) When cross-AZ data replication is performed",
+      "D) When database replication is not performed"
+    ],
+    "answer": "C",
+    "explanation": "The \"Cross-AZ Active-Active\" architecture prevents data loss by performing cross-AZ data replication."
+  },
+  {
+    "question": "What is the main advantage of using \"Bare Metal Server (BMS)\" in Huawei Cloud?",
+    "options": [
+      "A) Full physical hardware control",
+      "B) Lower cost",
+      "C) Faster data backup",
+      "D) Virtual server support only"
+    ],
+    "answer": "A",
+    "explanation": "BMS provides full control over the physical hardware, making it ideal for applications that require high performance."
+  },
+  {
+    "question": "In \"Auto Scaling\" configurations, which factor triggers automatic scaling of resources?",
+    "options": [
+      "A) Manual triggering based on user demands",
+      "B) Sudden increases in CPU, memory, and network traffic usage",
+      "C) Scheduled operations at specific times",
+      "D) Server temperature"
+    ],
+    "answer": "B",
+    "explanation": "Auto Scaling automatically responds to increases in resource usage, such as CPU, memory, and network traffic."
+  },
+  {
+    "question": "In which cases should \"Bare Metal Server (BMS)\" be preferred over \"Dedicated Host (DeH)\"?",
+    "options": [
+      "A) When greater virtualization flexibility is required",
+      "B) When direct access to physical resources is required",
+      "C) When faster backup operations are required",
+      "D) When costs need to be reduced"
+    ],
+    "answer": "B",
+    "explanation": "BMS is ideal for scenarios that require direct access to physical hardware."
+  },
+  {
+    "question": "In which case does \"Elastic Volume Service (EVS)\" disks provide the highest performance in Huawei Cloud?",
+    "options": [
+      "A) In database backup operations",
+      "B) In high-performance computing and distributed file systems",
+      "C) In small-scale databases",
+      "D) Only in archiving operations"
+    ],
+    "answer": "B",
+    "explanation": "EVS disks provide the highest performance in high-performance computing and distributed file systems."
+  },
+  {
+    "question": "In which cases is \"FunctionGraph\" used in cloud computing?",
+    "options": [
+      "A) In workloads that require full control of physical servers",
+      "B) In applications that require serverless architecture",
+      "C) In workloads that require only data storage",
+      "D) In jobs that require intensive GPU processing power"
+    ],
+    "answer": "B",
+    "explanation": "FunctionGraph is ideal for applications that require serverless architecture."
+  },
+  {
+    "question": "Which of the following statements is correct regarding Virtual Private Cloud (VPC)?",
+    "options": [
+      "A) All resources in a VPC are directly connected to the Internet",
+      "B) The CIDR blocks of subnets in a VPC can be changed after they are created",
+      "C) All subnets in a VPC use the same security group",
+      "D) VPC is not connected to the Internet by default"
+    ],
+    "answer": "D",
+    "explanation": "VPC is not connected to the Internet by default; additional configurations are required to access the Internet."
+  },
+  {
+    "question": "In a VPC, what operation is performed using the \"Route Table\"?",
+    "options": [
+      "A) Speeding up database queries",
+      "B) Directing network traffic to specific directions",
+      "C) Performing database replication",
+      "D) Restarting virtual servers"
+    ],
+    "answer": "B",
+    "explanation": "The route table is used to determine which directions network traffic will be directed."
+  },
+  {
+    "question": "What is the difference between \"Elastic Load Balancer (ELB)\" and \"Network ACL\"?",
+    "options": [
+      "A) ELB manages connections between data centers; ACL controls only subnet traffic",
+      "B) ELB performs load balancing; ACL controls traffic within subnets",
+      "C) ELB only works at Layer 4; ACL operates at Layer 7",
+      "D) ELB is connected to physical servers; ACL is connected to virtual servers"
+    ],
+    "answer": "B",
+    "explanation": "ELB balances incoming traffic; ACL controls traffic within subnets."
+  },
+  {
+    "question": "What is the purpose of \"Security Group\" settings in Huawei Cloud?",
+    "options": [
+      "A) Accelerating user access to the database",
+      "B) Increasing data sharing between servers",
+      "C) Increasing security by filtering network traffic",
+      "D) Automating backup operations"
+    ],
+    "answer": "C",
+    "explanation": "Security Group settings are used to increase security by filtering network traffic."
+  },
+  {
+    "question": "In which situation is the \"Geo-Redundant DR\" strategy critical?",
+    "options": [
+      "A) When low-cost data storage is needed",
+      "B) When fast data transfer between data centers is needed",
+      "C) When data needs to be backed up in another region in case of disaster",
+      "D) When data needs to be transferred between physical servers"
+    ],
+    "answer": "C",
+    "explanation": "A Geo-Redundant DR strategy ensures that backups are available in different geographic regions to prevent data loss in case of disaster."
+  },
+  {
+    "question": "Which of the following features is not available on \"Elastic Volume Service (EVS)\" disks?",
+    "options": [
+      "A) Real-time monitoring",
+      "B) Capacity reduction",
+      "C) Encryption",
+      "D) Snapshot creation"
+    ],
+    "answer": "B",
+    "explanation": "EVS disks can increase capacity, but cannot decrease capacity."
+  },
+  {
+    "question": "What types of workloads is Scalable File Service (SFS) ideal for?",
+    "options": [
+      "A) Large data processing and distributed applications",
+      "B) Small-scale databases",
+      "C) Email servers only",
+      "D) Web hosting operations"
+    ],
+    "answer": "A",
+    "explanation": "SFS is suitable for large data processing and distributed applications."
+  },
+  {
+    "question": "What is the cost model of Object Storage Service (OBS)?",
+    "options": [
+      "A) Fixed monthly fee",
+      "B) Pay-per-use",
+      "C) Annual license fee",
+      "D) Fixed fee based on the amount of data"
+    ],
+    "answer": "B",
+    "explanation": "OBS operates on a usage-based (pay-per-use) cost model, which provides flexibility."
+  },
+  {
+    "question": "What is the major difference between \"Bare Metal Server (BMS)\" and \"Elastic Cloud Server (ECS)\"?",
+    "options": [
+      "A) ECS offers virtual servers; BMS offers physical servers",
+      "B) BMS offers virtual server support; ECS provides physical hardware control",
+      "C) ECS is used for data storage; BMS is used only for backup",
+      "D) There is no functional difference between ECS and BMS"
+    ],
+    "answer": "A",
+    "explanation": "BMS offers physical servers; ECS offers virtual servers."
+  },
+  {
+    "question": "In which cases is VPN (Virtual Private Network) used?",
+    "options": [
+      "A) When data sharing is required only in the local network",
+      "B) When secure data transfer is required between different cloud regions",
+      "C) In data backup operations between servers",
+      "D) Only to speed up the Internet connection"
+    ],
+    "answer": "B",
+    "explanation": "VPN is used to provide secure data transfer between different cloud regions."
+  },
+  {
+    "question": "What is the purpose of \"CTS (Cloud Trace Service)\" in Huawei Cloud?",
+    "options": [
+      "A) Recording operations on cloud resources in the account",
+      "B) Improving database performance",
+      "C) Automating database backup operations",
+      "D) Monitoring network traffic"
+    ],
+    "answer": "A",
+    "explanation": "CTS records operations on cloud resources, and these records can later be used for analysis and auditing."
+  },
+  {
+    "question": "In which cases should \"Dedicated Host (DeH)\" be preferred?",
+    "options": [
+      "A) When low-cost server solutions are required",
+      "B) When full control over physical hardware is required",
+      "C) When used only for storage",
+      "D) For high-performance GPU operations"
+    ],
+    "answer": "B",
+    "explanation": "Dedicated Host is preferred when full control over physical hardware is required."
+  },
+  {
+    "question": "How are \"Elastic Volume Service (EVS)\" disks configured in Huawei Cloud?",
+    "options": [
+      "A) Used by themselves",
+      "B) Only works when there is an internet connection",
+      "C) Operated by connecting to ECS or BMS servers",
+      "D) Becomes active when paired with other EVS disks"
+    ],
+    "answer": "C",
+    "explanation": "EVS disks are accessible by connecting to ECS or BMS servers."
+  },
+  {
+    "question": "What kind of workloads is \"FunctionGraph\" best suited for?",
+    "options": [
+      "A) High-performance operations that require physical hardware",
+      "B) Workloads that will work with a serverless architecture",
+      "C) Operations that require only data storage",
+      "D) Tasks that require GPU processing power"
+    ],
+    "answer": "B",
+    "explanation": "FunctionGraph is designed for workloads that require a serverless architecture."
+  },
+  {
+    "question": "What advantage does Scalable File Service (SFS) offer?",
+    "options": [
+      "A) Can be used by only a single server",
+      "B) Provides simultaneous file access to multiple users",
+      "C) Speeds up data backup operations",
+      "D) Optimized for small-scale data storage needs"
+    ],
+    "answer": "B",
+    "explanation": "SFS provides simultaneous file access to multiple users, making it ideal for distributed applications."
+  },
+  {
+    "question": "What operation can be performed using \"Elastic Cloud Server (ECS)\"?",
+    "options": [
+      "A) To provide full control over the physical server",
+      "B) To make flexible configurations on virtual servers",
+      "C) To automate data backup operations",
+      "D) To speed up database queries only"
+    ],
+    "answer": "B",
+    "explanation": "ECS allows flexible configurations on virtual servers."
+  },
+  {
+    "question": "What is Network ACL used for?",
+    "options": [
+      "A) To increase database performance",
+      "B) To control network traffic within the subnet",
+      "C) To ensure virtual servers are restarted",
+      "D) To automate backup operations"
+    ],
+    "answer": "B",
+    "explanation": "Network ACLs control network traffic within the subnet."
+  },
+  {
+    "question": "In which case should Object Storage Service (OBS) be preferred?",
+    "options": [
+      "A) When there are only small data storage needs",
+      "B) For large-scale data storage and backup operations",
+      "C) To increase database performance",
+      "D) For jobs that require GPU processing power only"
+    ],
+    "answer": "B",
+    "explanation": "OBS is suitable for large-scale data storage and backup operations."
+  },
+  {
+    "question": "What kind of services does \"Cloud Eye\" provide?",
+    "options": [
+      "A) Storage monitoring only",
+      "B) Real-time monitoring and setting alarm rules",
+      "C) Physical server performance monitoring",
+      "D) Automating backup operations on virtual servers"
+    ],
+    "answer": "B",
+    "explanation": "Cloud Eye monitors the performance of resources in real time and enables setting alarm rules."
+  },
+  {
+    "question": "In which situation does RDS MySQL's \"Cross-AZ HA\" provide a critical advantage?",
+    "options": [
+      "A) During backup operations",
+      "B) Ensuring uninterrupted operation of the database in the event of a data center failure",
+      "C) Acceleration of database queries",
+      "D) Only during backup operations"
+    ],
+    "answer": "B",
+    "explanation": "Cross-AZ HA ensures uninterrupted operation of the database in the event of a data center failure."
+  },
+  {
+    "question": "In which situation are \"Database O&M\" services used in Huawei Cloud?",
+    "options": [
+      "A) Databaseautomate backup operations",
+      "B) Provide high efficiency and quality in database management",
+      "C) Provide full control over physical hardware",
+      "D) Only to improve database performance"
+    ],
+    "answer": "B",
+    "explanation": "Database O&M services are used to improve efficiency and quality in database management."
+  },
+  {
+    "question": "At which layers can \"Elastic Load Balancer (ELB)\" work?",
+    "options": [
+      "A) Layer 2 and Layer 3",
+      "B) Layer 3 and Layer 4",
+      "C) Layer 4 and Layer 7",
+      "D) Layer 5 and Layer 6"
+    ],
+    "answer": "C",
+    "explanation": "ELB balances network traffic by working at Layer 4 (TCP/UDP) and Layer 7 (HTTP/HTTPS)."
+  },
+  {
+    "question": "What is \"LTS (Log Tank Service)\" used for in Huawei Cloud?",
+    "options": [
+      "A) For centralized management of system logs",
+      "B) For speeding up database backup operations",
+      "C) For improving database performance",
+      "D) For enabling virtual servers to be restarted"
+    ],
+    "answer": "A",
+    "explanation": "LTS is used for centralized management and analysis of system logs."
+  },
+  {
+    "question": "In what cases is \"VPC Peering\" used in Huawei Cloud?",
+    "options": [
+      "A) For establishing network connection between VPCs in different regions",
+      "B) For establishing network connection between two VPCs in the same region",
+      "C) For accelerating database backup operations",
+      "D) For transferring data between servers"
+    ],
+    "answer": "B",
+    "explanation": "VPC Peering is used to establish network connection between two VPCs in the same region."
+  },
+  {
+    "question": "In cloud computing infrastructure, when should the “Cross-AZ Active-Active” architecture be preferred?",
+    "options": [
+      "A) Only for data backup",
+      "B) To provide high availability and uninterrupted service",
+      "C) To minimize costs",
+      "D) For regional data storage"
+    ],
+    "answer": "B",
+    "explanation": "“Cross-AZ Active-Active” architecture enables backup and uninterrupted operation of services between different availability zones (AZs) in a region. This architecture is preferred for providing high availability and uninterrupted service because in case of a problem in one AZ, the other AZ takes over and ensures the service continues."
+  },
+  {
+    "question": "What is the main difference between “Dedicated Host (DeH)” and “Bare Metal Server (BMS)” in Huawei Cloud?",
+    "options": [
+      "A) DeH is a shared server service, while BMS is unshared.",
+      "B) BMS provides virtualization support, while DeH provides physical servers.",
+      "C) DeH provides machines that can be virtualized; BMS offers fully physical servers.",
+      "D) BMS offers only storage; DeH provides computing."
+    ],
+    "answer": "C",
+    "explanation": "Dedicated Host (DeH) offers a dedicated server environment on which virtual machines can be run. Bare Metal Server (BMS) is a fully physical server and operates without a virtualization layer. This difference allows users to choose according to their needs; DeH offers more virtualization flexibility, while BMS offers full physical hardware control.\n\n68.What is the basis for cloud storage services to provide cost advantage?\n\nA) Fixed pricing model\n\nB) Flexible usage-based pricing\n\nC) High initial costs\n\nD) Integration with physical data centers\n\n B) Flexible usage-based pricing\n\nExplanation: Cloud storage services provide cost advantage thanks to their flexible usage-based pricing model. In this model, users only pay for the storage capacity and time they use. This can be more cost-effective compared to fixed pricing because users do not have to pay for excess capacity."
+  },
+  {
+    "question": "What are the criteria for triggering “Auto Scaling” configurations in Huawei Cloud?",
+    "options": [
+      "A) Only based on processor load",
+      "B) Based on resource usage such as processor, memory usage, and network traffic",
+      "C) Based on manual intervention by users",
+      "D) Based on specific time zones"
+    ],
+    "answer": "B",
+    "explanation": "Auto Scaling is automatically triggered based on various resource usage levels such as processor, memory usage, and network traffic. In this way, it is possible to dynamically increase or decrease the performance of the system according to the needs."
+  },
+  {
+    "question": "Which infrastructure feature enables high availability while maintaining the independence of availability zones (AZs) in a region?",
+    "options": [
+      "A) Multiple data centers within the same physical facility",
+      "B) Each availability zone has its own independent power and cooling systems",
+      "C) Availability zones are interconnected",
+      "D) Data centers in all regions are combined into a single system"
+    ],
+    "answer": "B",
+    "explanation": "Each availability zone (AZ) has its own independent power and cooling systems, allowing these areas to operate independently of each other. This is important for providing high availability, because a problem in one AZ does not affect the other."
+  },
+  {
+    "question": "What type of workloads is the “FunctionGraph” service ideal for?",
+    "options": [
+      "A) Workloads that require full control of physical servers",
+      "B) Applications developed with serverless architecture",
+      "C) Applications that require only storage",
+      "D) Workloads that require intensive GPU processing power"
+    ],
+    "answer": "B",
+    "explanation": "FunctionGraph is ideal for applications developed with serverless architecture. This service allows you to run your functions without the need for server management, thus reducing operational costs and management burden."
+  },
+  {
+    "question": "What advantage does “Elastic Volume Service (EVS)” in Huawei Cloud provide?",
+    "options": [
+      "A) Only available on virtual servers",
+      "B) Provides the ability to flexibly increase storage capacity",
+      "C) Increases processor performance",
+      "D) Only available for file storage"
+    ],
+    "answer": "B",
+    "explanation": "Elastic Volume Service (EVS) provides the ability to flexibly increase storage capacity. This is a great advantage in environments where storage needs are variable, because users can increase capacity as needed."
+  },
+  {
+    "question": "In cloud computing, when is the “Geo-Redundant DR” strategy most important?",
+    "options": [
+      "A) For workloads requiring high-performance computing",
+      "B) In disaster scenarios, backup in different geographic regions",
+      "C) To optimize costs",
+      "D) In physical server management"
+    ],
+    "answer": "B",
+    "explanation": "The Geographic Redundant DR (Disaster Recovery) strategy allows backups to be found in different geographic regions in disaster scenarios. This ensures that when a disaster occurs in one of the data centers, data can be recovered from backups in other regions and the service continues."
+  },
+  {
+    "question": "What security measures does a user’s “Security Group” configuration in Huawei Cloud include?",
+    "options": [
+      "A) Direct data sharing between servers",
+      "B) User access control and network traffic filtering",
+      "C) Automatic update of servers",
+      "D) Ensuring database replication"
+    ],
+    "answer": "B",
+    "explanation": "The Security Group configuration is used to control access to resources within the VPC and filter network traffic. This allows you to specify security rules to allow or block access to specific IP addresses and ports.\n\n75.What is the most significant difference between “Elastic Cloud Server (ECS)” and “Bare Metal Server (BMS)”?\n\nA) ECS offers virtual servers, while BMS offers physical servers.\n\nB) BMS offers virtualization support, while ECS only offers physical servers.\n\nC) ECS is used only for data storage, while BMS provides processing power.\n\nD) There is no functional difference between ECS and BMS.\n\n A) ECS offers virtual servers, while BMS offers physical servers.\n\nExplanation: ECS (Elastic Cloud Server) offers virtual servers, while BMS (Bare Metal Server) offers physical servers. ECS is more flexible for virtual environments, while BMS provides full control over the physical hardware and is generally preferred for high-performance workloads."
+  }
+]

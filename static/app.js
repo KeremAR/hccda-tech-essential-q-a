@@ -11,16 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let questions = [];
     let currentQuestionIndex = 0;
-    let selectedOption = null;
+    let selectedOptions = [];
     let answered = false;
 
     async function fetchQuestions() {
         try {
-            const response = await fetch('/api/questions');
+            // Fetch the clean, static JSON file
+            const response = await fetch('/questions_clean.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             questions = await response.json();
+            
+            // Shuffle the questions for a random order each time
+            questions.sort(() => Math.random() - 0.5);
+
             if (questions.length > 0) {
                 loadingElement.style.display = 'none';
                 quizContainer.classList.remove('hidden');
@@ -36,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayQuestion() {
         answered = false;
-        selectedOption = null;
+        selectedOptions = [];
         resultContainer.style.display = 'none';
         resultContainer.className = 'result-container';
         nextButton.textContent = 'Cevabı Kontrol Et';
@@ -47,24 +52,39 @@ document.addEventListener('DOMContentLoaded', () => {
         questionTextElement.textContent = question.question;
 
         optionsContainer.innerHTML = '';
+        const isMultiChoice = Array.isArray(question.answer);
+
         question.options.forEach(optionText => {
             const optionElement = document.createElement('div');
             optionElement.className = 'option';
             optionElement.textContent = optionText;
-            optionElement.addEventListener('click', () => selectOption(optionElement, optionText));
+            optionElement.addEventListener('click', () => selectOption(optionElement, optionText, isMultiChoice));
             optionsContainer.appendChild(optionElement);
         });
     }
 
-    function selectOption(optionElement, optionText) {
+    function selectOption(optionElement, optionText, isMultiChoice) {
         if (answered) return;
 
-        if (selectedOption) {
-            selectedOption.classList.remove('selected');
+        const index = selectedOptions.indexOf(optionElement);
+
+        if (isMultiChoice) {
+            if (index > -1) {
+                selectedOptions.splice(index, 1);
+                optionElement.classList.remove('selected');
+            } else {
+                selectedOptions.push(optionElement);
+                optionElement.classList.add('selected');
+            }
+        } else {
+            if (selectedOptions.length > 0) {
+                selectedOptions[0].classList.remove('selected');
+            }
+            selectedOptions = [optionElement];
+            optionElement.classList.add('selected');
         }
-        selectedOption = optionElement;
-        selectedOption.classList.add('selected');
-        nextButton.disabled = false;
+        
+        nextButton.disabled = selectedOptions.length === 0;
     }
 
     function checkAnswer() {
@@ -80,34 +100,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
         answered = true;
         const question = questions[currentQuestionIndex];
-        const selectedAnswer = selectedOption.textContent;
-        const correctAnswer = question.answer;
+        const correctAnswers = Array.isArray(question.answer) ? question.answer : [question.answer];
+        
+        let allCorrect = true;
+        
+        const selectedAnswersText = selectedOptions.map(opt => opt.textContent.split('.')[0].trim());
 
-        let isCorrect = false;
-        if (Array.isArray(correctAnswer)) { // Multiple choice
-            const selectedAnswers = selectedAnswer.split(',').map(s => s.trim());
-            isCorrect = correctAnswer.length === selectedAnswers.length && correctAnswer.every(val => selectedAnswers.includes(val));
-        } else { // Single choice or True/False
-            // Handle cases where answer is like "B) some text"
-            const simpleAnswer = correctAnswer.split(')')[0].trim();
-            const simpleSelected = selectedAnswer.split(')')[0].trim();
-            isCorrect = simpleSelected === simpleAnswer;
+        if (correctAnswers.length !== selectedAnswersText.length || !correctAnswers.every(ans => selectedAnswersText.includes(ans))) {
+            allCorrect = false;
         }
 
+        // Highlight correct and incorrect answers
         Array.from(optionsContainer.children).forEach(opt => {
-             const simpleOptText = opt.textContent.split(')')[0].trim();
-             if (Array.isArray(correctAnswer) ? correctAnswer.includes(simpleOptText) : simpleOptText === correctAnswer.split(')')[0].trim()) {
+            const optValue = opt.textContent.split('.')[0].trim();
+            if (correctAnswers.includes(optValue)) {
                 opt.classList.add('correct');
-             }
+            }
         });
 
+        if (!allCorrect) {
+            selectedOptions.forEach(opt => {
+                 const optValue = opt.textContent.split('.')[0].trim();
+                if (!correctAnswers.includes(optValue)) {
+                    opt.classList.add('incorrect');
+                }
+            });
+        }
 
-        if (isCorrect) {
+
+        if (allCorrect) {
             resultTextElement.textContent = 'Doğru!';
             resultContainer.classList.add('correct');
         } else {
-            selectedOption.classList.add('incorrect');
-            resultTextElement.textContent = `Yanlış! Doğru Cevap: ${Array.isArray(correctAnswer) ? correctAnswer.join(', ') : correctAnswer}`;
+            resultTextElement.textContent = `Yanlış! Doğru Cevap: ${correctAnswers.join(', ')}`;
             resultContainer.classList.add('incorrect');
         }
 
