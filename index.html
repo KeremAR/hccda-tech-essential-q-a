@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>HCCDA TECH ESSENTIAL PREP EXAM</h1>
-        <div id="quiz-container">
-            <div id="question-container">
-                <p id="question-number"></p>
-                <p id="question-text"></p>
+    <main>
+        <div class="container">
+            <h1>HCCDA TECH ESSENTIAL PREP EXAM</h1>
+            <div id="quiz-container">
+                <div id="question-container">
+                    <p id="question-number"></p>
+                    <p id="question-text"></p>
+                </div>
+                <div id="options-container"></div>
+                <div id="result-container">
+                    <p id="result-text"></p>
+                    <p id="explanation-text"></p>
+                </div>
+                <button id="next-button">Check Answer</button>
             </div>
-            <div id="options-container"></div>
-            <div id="result-container">
-                <p id="result-text"></p>
-                <p id="explanation-text"></p>
-            </div>
-            <button id="next-button">Check Answer</button>
+            <div id="loading">Loading questions...</div>
         </div>
-        <div id="loading">Loading questions...</div>
-    </div>
+    </main>
     <script src="/static/app.js"></script>
+
+    <footer>
+        <p>Data sourced from a <a href="https://medium.com/@enes.cikcik/hccda-tech-essentials-certification-practice-questions-d21aa9dd7f02" target="_blank" rel="noopener noreferrer">Medium article</a>.</p>
+    </footer>
 </body>
 </html> 
